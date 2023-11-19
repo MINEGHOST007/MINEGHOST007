@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @MINEGHOST007 aka S.Sankeerth Reddy
-- 👀 I’m working as a web and app developer in CAPRICORN, GLUG, EDC in tech stack such as JAVA, FLUTTER, DJANGO.
+- 👀 I’m working as a web and app developer in CAPRICORN, GLUG, EDC in tech stackS such as JAVA, FLUTTER, DJANGO.
 - 🌱 I’m currently pursuing CSE at NIT Durgapur,India
 - 📫 How to reach me ... : Insta id: @sankeerth_suravaram
 
