@@ -86,8 +86,11 @@
 | **[Auditions Portal](https://github.com/...)** | Django, TailwindCSS | RBAC system handling 400+ participants |
 
 ## 📫 Let's Connect!
-<p align="center">
-  <a href="https://codeforces.com/profile/ghost007x"><img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/24/000000/external-codeforces-programming-competitions-and-contests-programming-community-logo-shadow-tal-revivo.png"/></a>
-  <a href="https://www.codechef.com/users/mineghost007"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" width="24px"/></a>
-  <a href="https://discord.gg/dgvvESbbdv"><img src="https://img.icons8.com/color/48/000000/discord-logo.png" width="24px"/></a>
+<p align="left">
+<a href="https://linkedin.com/in/sankeerth-reddy-suravaram-39788b264/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="sankeerth-reddy-suravaram-39788b264/" height="30" width="40" /></a>
+<a href="https://instagram.com/suravaram_sankeerth" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="suravaram_sankeerth" height="30" width="40" /></a>
+<a href="https://www.codechef.com/users/mineghost007" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="mineghost007" height="30" width="40" /></a>
+<a href="https://codeforces.com/profile/ghost007x" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" alt="ghost007x" height="30" width="40" /></a>
+<a href="https://www.leetcode.com/ssankeerthreddy23" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="ssankeerthreddy23" height="30" width="40" /></a>
+<a href="https://discord.gg/https://discord.gg/dgvvESbbdv" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="https://discord.gg/dgvvESbbdv" height="30" width="40" /></a>
 </p>
