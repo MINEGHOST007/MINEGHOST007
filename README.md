@@ -4,7 +4,6 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=mineghost007&style=flat-square&color=blue" alt="Profile Views"/>
   <a href="https://github.com/mineghost007?tab=followers"><img src="https://img.shields.io/github/followers/mineghost007?logo=github&style=flat-square"/></a>
-  <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=mineghost007&theme=dark"/></a>
 </p>
 
 <p align="center">
