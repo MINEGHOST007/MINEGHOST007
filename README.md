@@ -81,9 +81,11 @@
 
 | Project | Tech Stack | Description |
 |---------|------------|-------------|
-| **[AI Trading App](https://github.com/...)** | Flutter, Node.js, TensorFlow, MongoDB | AI-powered trading platform with 30% engagement boost |
-| **[Smart Clinic System](https://github.com/...)** | React, FastAPI, PostgreSQL | Speech-to-text reporting system (40% time reduction) |
-| **[Auditions Portal](https://github.com/...)** | Django, TailwindCSS | RBAC system handling 400+ participants |
+| **[Placement Portal]** | NEXT.js, FastAPI, React, Redux, PostgreSQL | Recruitment Automation System for NIT Durgapur |
+| **[Smart Clinic System]** | React, Flutter, Strapi, PostgreSQL, .NET | Speech-to-text reporting system (40% time reduction) for U.S based clients (MDofficeManager) |
+| **[AI Trading App]** | Flutter, Strapi, TensorFlow, PostgreSQL, Python | AI-powered trading platform with 30% engagement boost |
+| **[Auditions Portal]** | Django, TailwindCSS, React | RBAC system handling 400+ participants |
+| **[SQLify Hub]** | Java, JavaFX, PostgreSQL | A comprehensive DBMS made with Java, As a Mentor at Ten Days of Code  |
 
 ## 📫 Let's Connect!
 <p align="left">
