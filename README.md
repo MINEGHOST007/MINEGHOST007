@@ -56,6 +56,7 @@
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
 
 ### **Tools & Platforms**
+
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white)
 ![Jira](https://img.shields.io/badge/Jira-0052CC?logo=jira&logoColor=white)
