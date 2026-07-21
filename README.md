@@ -74,6 +74,10 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=mineghost007&theme=react-dark&hide_border=true&area=true"/>
 </p>
 
+### 🐍 My GitHub Contribution Snake
+
+![GitHub Contribution Snake](https://githubusercontent.com)
+
 ## 🏆 GitHub Trophies
 <p align="center"> 
   <img src="https://github-profile-trophy.vercel.app/?username=mineghost007&theme=onedark&row=2&column=4&margin-w=15&margin-h=15"/>
