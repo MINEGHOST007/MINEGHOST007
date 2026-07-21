@@ -66,21 +66,17 @@
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=mineghost007&show_icons=true&theme=vision-friendly-dark&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mineghost007&layout=compact&langs_count=8&theme=vision-friendly-dark"/>
+  <img height="180em" src="https://github-stats-extended.vercel.app/api?username=mineghost007&show_icons=true&theme=vision-friendly-dark&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-stats-extended.vercel.app/api/top-langs/?username=mineghost007&layout=compact&langs_count=8&theme=vision-friendly-dark"/>
 </p>
-
+# 2026
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mineghost007&theme=react-dark&hide_border=true&area=true"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mineghost007&theme=react-dark&hide_border=true&area=true&from=2026-01-01&to=2026-07-21"/>
 </p>
 
-### 🐍 My GitHub Contribution Snake
-
-![GitHub Contribution Snake](https://githubusercontent.com)
-
-## 🏆 GitHub Trophies
-<p align="center"> 
-  <img src="https://github-profile-trophy.vercel.app/?username=mineghost007&theme=onedark&row=2&column=4&margin-w=15&margin-h=15"/>
+# 2025
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mineghost007&theme=react-dark&hide_border=true&area=true&from=2025-01-01&to=2025-12-31"/>
 </p>
 
 ## 🔥 Recent Projects
