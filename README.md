@@ -70,7 +70,7 @@
   <img height="180em" src="https://github-stats-extended.vercel.app/api/top-langs/?username=mineghost007&layout=compact&langs_count=8&theme=vision-friendly-dark"/>
 </p>
 
-### 📈 Activity Timeline (Nov 2022 – Present)
+### 📈 Activity Timeline
 
 **2026**
 <p align="center">
@@ -90,11 +90,6 @@
 **2023**
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=mineghost007&theme=react-dark&hide_border=true&area=true&from=2023-01-01&to=2023-12-31"/>
-</p>
-
-**2022** <sub>(from Nov, when I joined NIT Durgapur)</sub>
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mineghost007&theme=react-dark&hide_border=true&area=true&from=2022-11-01&to=2022-12-31"/>
 </p>
 
 ## 🔥 Recent Projects
