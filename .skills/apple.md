@@ -1,4 +1,52 @@
+Yes. There are multiple patents/applications specifically covering QR codes or machine-readable codes on checks. This is significant for the invention disclosure you're preparing.
 
+A few particularly relevant examples:
+
+1. Truist Bank — “Generating an encoded document” — US 12,020,092
+Granted June 25, 2024. It specifically describes a check printed with a QR code containing check information, including amount, date, payor, payee, account/routing information, and check number. The recipient can scan it with a mobile device and use the information for check processing. 
+
+
+2. “Secure Check Processing System and Related Method” — US 2025/0173727
+Describes a QR-encoded check that can be scanned and converted into a check image for electronic processing, including electronic endorsement and additional security mechanisms. 
+
+
+3. “Check Fraud Prevention System” — US 2025/0094942
+Very relevant: it describes putting an encrypted barcode or QR code directly on an issued check containing check information and additional hidden information, which can be read to identify fraudulent or altered checks. 
+
+
+4. US 2015/0090782 — Pre-Approval Processing
+Describes a QR code on a negotiable instrument/check containing account, routing and check information, allowing the check to be pre-processed and potentially validated before the transaction proceeds. 
+
+
+5. US 2013/0226714 — Quick response codes for negotiable instruments
+Goes even further back and explicitly describes QR codes printed on checks/negotiable instruments, including scanning the code with a phone. 
+
+
+6. There are even older check-fraud patents using machine-readable codes. For example, US 6,390,362, filed in 1999, describes attaching machine-readable information to a negotiable instrument for check-fraud prevention. 
+
+
+
+What this means for your idea
+
+If the proposed invention is simply:
+
+> “Put a QR code on a check and scan it.”
+
+
+
+then that is very clearly not a new concept. There is substantial prior art.
+
+But your Teams discussion appears to contain a larger system concept:
+
+QR/scannable check → bank/account-linked token → verification → AI/behavioral analysis → spending-pattern detection → vendor fraud tracking → customer/risk categorization → configurable controls → fallback to conventional check processing.
+
+That combination is where the potentially interesting invention needs to be evaluated.
+
+In particular, I would not describe the invention disclosure as “QR code on checks.” That is too narrow and appears heavily covered by existing patents.
+
+I'd frame the invention around the specific technical architecture and fraud/risk-control mechanism built around the scannable check, and let Wells Fargo's patent team determine which elements/combination are actually novel.
+
+If you want, I can next do a  of your proposed system against these patents and identify claim-by-claim prior-art comparison.which parts of your idea appear already patented and which parts may still be novel
 Based on the screenshots and the discussion visible in Teams, I’d fill the invention disclosure as follows. I’ve kept the language patent-oriented but not overly specific to one implementation, which is generally better for an invention disclosure.
 
 Invention Title
