@@ -177,6 +177,52 @@ Incoming request→Decision model→Confident: act instantlyorUnsure: escalate t
 
 **Recommendation:** deploy as triage and guardrail, not as final approver of consequential actions such as security patches. Validate on the bank's own labeled cases before trusting any published number.
 
+Bonus shift · Local AI
+
+## Local AI: bring the model to the data, not the data to the model
+
+Cloud AI sends your data to a vendor's servers. Local AI runs the model on your own laptop, workstation or servers. Google and Meta are both pushing in this direction, with different bets.
+
+### Google: AI Edge Foresight
+
+- Experimental Mac app that records meetings, transcribes offline, expands your shorthand into full notes, and answers questions from your own files
+- Runs Gemma 4 plus EmbeddingGemma 2 (740M parameters, Apache 2.0); Gemma 4 12B fits laptops with 16 GB
+- Privacy claim (nothing leaves the device) is Google's own
+
+### Meta: Muse Glimmer
+
+- 30B open-weight model (Apache 2.0) built for always-on agents on a single GPU or Mac Mini
+- Distilled from Meta's closed flagship, Muse Spark
+- Zuckerberg's framing: distribute AI widely instead of centralizing it
+
+### Same direction, two tracks
+
+- Both still run their strongest models in the cloud (Muse Spark is closed; Muse agents run on Meta's servers)
+- Local handles private, routine work; cloud handles hard reasoning
+- Hardware is following: Nvidia is shipping compact PCs for local agents
+
+### Why leaders care
+
+- Sensitive audio, documents and notes never reach a third party
+- Works offline, with low delay and no per-token fee
+- Weakens the objection that regulated firms cannot send transcripts to a vendor
+
+### Use cases at the bank
+
+- Notes for confidential deal, legal or regulatory calls
+- Private search across local documents
+- Small decision models at the edge for fast checks (Strands Decider runs locally)
+
+### Watch-outs
+
+- Smaller models are weaker on hard tasks
+- Local apps can bypass central logging and controls, so endpoint management is essential
+- Foresight is experimental and Mac-only
+
+**Recommendation:** pilot local note-taking and document search with a small, managed group, and design a hybrid: local for sensitive routine work, cloud frontier models for hard reasoning, with logging in both.
+
+Sources: Google Developers Blog and coverage (heise, Notebookcheck, TechCrunch via AI Weekly), Meta Connect recap, InfoQ, Engadget, Nvidia IFA 2026 post.
+
 3 · Ultrafast AI · how it works
 
 ## Fast AI is a memory problem, not a math problem
