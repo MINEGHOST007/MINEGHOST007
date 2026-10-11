@@ -8,7 +8,7 @@ Each topic follows the same path: what it is, how it works, why it matters, wher
 
 **Core difference:** AI that keeps working between conversations. It watches, remembers, prepares, then asks for approval.
 
-OpenAI Dots · Meta Muse · Grok Bot · Gemini Spark
+OpenAI Dots · Meta Muse · Grok Bot · Google Gemini agent
 
 ### 2Decision models
 
@@ -66,7 +66,8 @@ The control point. Dots: background research is read-only, enforced in code. Mus
 | --- | --- | --- | --- |
 | **OpenAI Dots** | Clearest published control model: read-only background research, rules to allow, ask or block | Personal and team work across ChatGPT, Slack, Teams | Memories outlive a disconnected app; admin enablement needed |
 | **Meta Muse** | Security-first design: isolated machine, Sentinel approver, credential vault | Errands, purchases, reservations; now adding business app links | Consumer-first; enterprise consoles thin |
-| **Grok Bot / Team Bots** | Named AI teammates; one shared bot per team or account | Sales account briefs, engineering ticket triage | Admin and privacy controls unclear |
+| **Grok Bot / Team Bots** | Named AI teammates, now a model router: picks the best backend per task (Claude Opus 5.5 for reasoning, Midjourney for images, Suno for music) | Sales briefs, engineering triage, live X trend monitoring | Routing is automatic with no reported off switch; the vendor mix can change, so data may reach several providers |
+| **Gemini agent** (Google Cloud) | One enterprise agent across Workspace, Microsoft 365 and Slack; gets its own account, email and calendar; four kinds of memory; routes between Gemini and Claude; per-agent identity, activity log and hard spend caps | Cross-app work in mixed environments; a financial-services version is in preview | Private preview only |
 | **Gemini Spark** | Real API access to Workspace, not screen-clicking | Email, calendar, document workflows | Workspace-centric; regional gaps |
 | **Microsoft Autopilot** | Agent with its own identity and configurable permissions | Microsoft 365 work through Graph | Strongest inside the Microsoft stack |
 
@@ -88,6 +89,38 @@ The control point. Dots: background research is read-only, enforced in code. Mus
 - Read-only by default; approval for anything that changes state
 - Its own identity per agent; shared tasks can see more than one person should
 - Plan for prompt injection, the top-ranked LLM security risk
+
+1 · Always-on agents · how they operate software
+
+## Computer use is getting better by clicking less
+
+Computer use lets an agent operate software built for humans. For a bank that matters because many legacy systems and vendor portals have no API. Reliability is improving through five shifts.
+
+### 1Pixels → structure
+
+Agents used to read screenshots only. Now they also read the page's underlying structure. In one benchmark this doubled Claude Opus 4.6's score (26% to 52%); vision-only frontier models clustered at 20–29%. Muse reads pages this way.
+
+### 2Clicking → calling
+
+Hybrid agents use commands, APIs and MCP tools where possible and click only as a last resort. One open model issued commands for 41–55% of its actions. Gemini agent draws on an enterprise tools registry; Dots connect 4,000+ apps.
+
+### 3One step → batches
+
+Agents now send several actions per turn (about 40% in that study), which cuts round trips and cost.
+
+### 4Harder, honest tests
+
+The classic OSWorld test is saturated at 79–83%. Its successor uses 108 long tasks of about 300 steps, and the best agent at launch fully completed only 20.6%. OpenAI reports GPT-6.1 Sol up seven points on it at under half the cost (vendor-reported).
+
+### 5Cheaper and safer
+
+Sol is within 2.1 points of Astra at roughly one-seventh the cost per task (OpenAI). Safety is moving into the design: separate approver agents, credential vaults, spend caps.
+
+**Emerging option, WebMCP:** a proposed browser standard that lets a website publish safe, defined actions for agents instead of making them click through screens. It is experimental (Chrome and Edge origin trials) and needs both the site and the agent set up, so treat it as a pilot on one low-risk internal site while Playwright stays for testing.
+
+**Bank takeaway:** computer use is the bridge to legacy screens, but long tasks still fail more often than they succeed. Use APIs first, computer use for the last mile, a human checkpoint at the end, and keep it away from irreversible actions. It also explains why testing agents can find breaks that fixed Playwright scripts miss.
+
+Sources: OSWorld 2.0 paper, iOSWorld study, Qwen-UI-Agent report, OpenAI GPT-6.1 Sol post, Google Cloud, SpaceXAI.
 
 2 · Decision models · what it is and how it works
 
